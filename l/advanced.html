@@ -5,37 +5,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="nav-links">
+    <div class="nav">
         <a href="index.html">Google Search</a>
         <a href="image.html">Image Search</a>
     </div>
 
-    <div class="advanced-container">
-        <h2>Advanced Search</h2>
+    <div style="padding: 40px; max-width: 600px; margin: 0 auto;">
+        <h2 style="color: #d93025; font-weight: 400; border-bottom: 1px solid #ebebeb; padding-bottom: 10px;">
+            Advanced Search
+        </h2>
 
-        <form action="https://www.google.com/search" class="advanced-form">
+        <form action="https://www.google.com/search">
             
-            <div class="input-row">
-                <label>Find pages with... "all these words:"</label>
-                <input type="text" name="as_q">
+            <div class="advanced-row">
+                <label class="advanced-label">"all these words:"</label>
+                <input type="text" name="as_q" class="advanced-field">
             </div>
 
-            <div class="input-row">
-                <label>Find pages with... "this exact word or phrase:"</label>
-                <input type="text" name="as_epq">
+            <div class="advanced-row">
+                <label class="advanced-label">"this exact word or phrase:"</label>
+                <input type="text" name="as_epq" class="advanced-field">
             </div>
 
-            <div class="input-row">
-                <label>Find pages with... "any of these words:"</label>
-                <input type="text" name="as_oq">
+            <div class="advanced-row">
+                <label class="advanced-label">"any of these words:"</label>
+                <input type="text" name="as_oq" class="advanced-field">
             </div>
 
-            <div class="input-row">
-                <label>Find pages with... "none of these words:"</label>
-                <input type="text" name="as_eq">
+            <div class="advanced-row">
+                <label class="advanced-label">"none of these words:"</label>
+                <input type="text" name="as_eq" class="advanced-field">
             </div>
             
-            <div class="advanced-button-area">
+            <div class="advanced-submit">
                 <input type="submit" value="Advanced Search" class="advanced-button">
             </div>
 
