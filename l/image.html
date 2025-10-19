@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Google Search</title>
+    <title>Google Image Search</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="nav">
-        <a href="image.html">Image Search</a>
+        <a href="index.html">Google Search</a>
         <a href="advanced.html">Advanced Search</a>
     </div>
 
     <form action="https://www.google.com/search" class="search-form">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+        <h1>Google Images</h1>
         
-        <br>
+        <input type="hidden" name="tbm" value="isch">
         
         <input type="text" name="q" class="search-input">
         
         <br>
-
-        <input type="submit" value="Google Search">
-        <input type="submit" name="btnI" value="I'm Feeling Lucky">
+        
+        <input type="submit" value="Image Search">
     </form>
 </body>
 </html>
